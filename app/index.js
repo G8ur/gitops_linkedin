@@ -4,7 +4,7 @@ const PORT = 3000;                  // Define the port number
 
 // Define a route for the root URL ('/')
 app.get('/', (req, res) => {
-    res.send('Hello, World! Your Node app is running succecssfully.');
+    res.send('Hello, World! Your Node app is running successfully.');
 });
 
 // Start the server and listen on the defined port
